@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: laravel-app
-        image: gbxnga/laravel-aws-eks:v2
+        image: sumonaust/laravel-eks
         ports:
         - containerPort: 80 
         resources:
